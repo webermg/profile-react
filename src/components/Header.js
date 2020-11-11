@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 export default function Header(props) {
   const location = useLocation();
   return (
-    <nav class="navbar navbar-expand-lg navbar-light yellow">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       {/* <a class="navbar-brand px-2" href="index.html">Matt Weber</a> */}
       <Link to="/" className="navbar-brand px-2">
               Matt Weber
