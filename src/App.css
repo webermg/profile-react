@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  
+}
+
+body {
+  background-image: url("components/backgroundtile.gif");
 }
 
 .App-logo {
