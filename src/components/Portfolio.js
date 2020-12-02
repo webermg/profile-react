@@ -30,6 +30,20 @@ const projects = [
     siteLink:"https://radiant-brook-03748.herokuapp.com/",
     githubLink:"https://github.com/webermg/EmployeeDB"
   },
+  {
+    img:"assets/ScreenshotPI.png",
+    title:"Plant-it",
+    desc:"Site for discussing plants and planning a garden",
+    siteLink:"https://plantit-site.herokuapp.com/",
+    githubLink:"https://github.com/webermg/plantit-frontend"
+  },
+  {
+    img:"assets/Screenshotgbs.png",
+    title:"Google Books Search",
+    desc:"Search the Google Books service and add books to read",
+    siteLink:"https://desolate-crag-54127.herokuapp.com/",
+    githubLink:"https://github.com/webermg/google-book-search"
+  },
 ]
 
 export default function Portfolio() {
@@ -48,7 +62,7 @@ export default function Portfolio() {
           <Project {...projects[0]}/>
         </div>
         <div class="col-lg-6">
-        <Project {...projects[1]}/>
+          <Project {...projects[1]}/>
         
         </div>
         
@@ -63,9 +77,11 @@ export default function Portfolio() {
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6">
+      <div class="col-lg-6 border-right">
+        <Project {...projects[4]}/>
         </div>
         <div class="col-lg-6">
+          <Project {...projects[5]}/>
         </div>
       </div>
     </div>
