@@ -31,7 +31,7 @@ export default function Contact() {
       </div>
       <div class="row pb-4">
         <div class="col-md-4 mx-3">
-          <a href="assets/Resume.pdf">Resume</a>
+          <a href="https://docs.google.com/document/d/e/2PACX-1vTBFHg_ZRDsvtK-JUO8Y0Vv1b-9oLtCXzqAn4G5y-2JIkwh7K3o0gQFRieXovVTBfvyEZsNWl3r_3Gu/pub">Resume</a>
         </div>
       </div>
     </div>
