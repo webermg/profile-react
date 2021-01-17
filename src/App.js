@@ -10,7 +10,11 @@ import Header from './components/Header';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <About/>
+      {/* <Contact/> */}
+      <Portfolio/>
+      
+      {/* <Router>
         <Header/>
         <Switch>
           <Route exact path="/" component={About} />
@@ -19,7 +23,7 @@ function App() {
           <Route exact path="/portfolio" component={Portfolio}/>
         </Switch>
         <Footer/>
-      </Router>
+      </Router> */}
     </div>
   );
 }
